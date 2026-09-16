@@ -1,0 +1,19 @@
+# Виртуальное окружение
+.venv/
+
+# Файлы, созданные IDE
+.idea/
+
+# Файлы, созданные Python
+__pycache__/
+.pytest_cache/
+
+# Директории с результатами Allure
+allure-results/
+allure-report/
+
+# Каталог Git
+.git/
+
+# Файлы, созданные MacOS
+.DS_Store

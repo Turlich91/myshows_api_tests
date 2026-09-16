@@ -1,0 +1,21 @@
+type: array
+items:
+  type: object
+  additionalProperties: false
+  properties:
+    id:
+      type: integer
+    name:
+      type: string
+    photo:
+      type: [string, "null"]
+    rating:
+      type: [integer, "null"]
+    status:
+      type: string
+    review:
+      type: [string, "null"]
+  required:
+    - id
+    - name
+    - status
